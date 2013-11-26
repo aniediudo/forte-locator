@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+.news-image {
+    border-top : 1px solid #519473;
+    border-bottom : 1px solid #519473;
+    width : 100%;
+    height : auto;
+}
+
+.news-title {
+	color : #519473;
+	text-align:center;
+}

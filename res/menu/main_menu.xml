@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_locate"
+        android:showAsAction="always"
+        android:title="@string/locate" android:icon="@drawable/ic_location">
+    </item>
+    <item android:id="@+id/item_list" android:icon="@drawable/ic_action_service_station_list" android:showAsAction="ifRoom" android:title="@string/available">
+    </item><item
+        android:id="@+id/item_alerts"
+        android:showAsAction="ifRoom"
+        android:title="@string/alerts" android:icon="@drawable/ic_alerts">
+    </item>
+    <item
+        android:id="@+id/item_products"
+        android:title="@string/products" android:icon="@drawable/ic_products" android:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/item_news"
+        android:showAsAction="ifRoom"
+        android:title="@string/news" android:icon="@drawable/ic_action_news">
+    </item>
+    
+    <item
+        android:id="@+id/item_register_vehicle"
+        android:showAsAction="ifRoom"
+        android:title="@string/register_vehicle" android:icon="@drawable/ic_car">
+    </item>
+
+</menu>
